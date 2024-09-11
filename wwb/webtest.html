@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang CSS đơn giản</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/shubham-dhage-jAnHEGMEqsM-unsplash.jpg">
+    <script src="submid.js" defer></script>
+</head>
+<body>
+    <header>
+      <div id="thong_tin_sv">
+        <div class="thongtin">
+            <!-- Thông tin sinh viên -->
+             <h3>
+                <span class="label">Họ tên:</span>
+                <span class="value">Trần Minh Dương</span>
+                <br>
+            </h3>
+        </div>
+        <br>
+        <div class="thongtin">
+            <h3><span class="label">Khoa :</span>
+                <span class="value">Điện-Điện tử</span>
+            </h3>
+        </div>
+        <br>
+        <div class="thongtin">
+            <h3><span class="label">Lớp :</span>
+                <span class="value">RB&AI</span>
+            </h3>
+        </div>
+        <br>
+        <div class="thongtin">
+            <h3><span class="label">Khoá :</span>
+                <span class="value">62</span>
+            </h3>
+        </div>
+    </div>
+      <div id="banner">
+        <div id="sreach">
+            <input type="text" placeholder="Tìm kiếm">
+            <button>Tìm</button>
+        </div>
+    </div>    
+    </header>
+    <section>
+        <div id="left">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" onclick="submit('bai1.php'); return false;">Bài 1</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="showChoices(); return false;">Bài 2</a>
+                    </li>
+                    <li><a href="#">Liên kết 3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="right">
+            <!-- Nội dung chính -->
+             <iframe src="https://machinelearningcoban.com/" width="100%" height="700px" name="baitap"></iframe>
+             <div id="options">
+                <button onclick="Selection('a')">a</button>
+                <button onclick="Selection('b')">b</button>
+             </div>
+        </div>
+    </section>
+    <footer>
+        <!-- Thông tin chân trang -->
+    </footer>
+
+</body>
+</html>
